@@ -1,0 +1,4 @@
+[autorun]
+;Open=index.html
+ShellExecute=index.html
+UseAutoPlay=1

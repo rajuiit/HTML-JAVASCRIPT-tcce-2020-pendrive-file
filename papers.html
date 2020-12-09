@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Sayed Mohsin Reza">
+    
+
+    <title>PROCONF - TCCE 2020</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" >
+        <!-- datatble core CSS -->
+    <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css" >
+
+    <!-- Custom styles for this template -->
+    <style>
+
+
+    </style>
+  </head>
+
+  <body>
+  <script src="js/jquery-1.12.4.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap4.min.js"></script>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand" href="http://tcce.iitju.edu.bd/">TCCE 2020</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="papers.html">Papers</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="programs.html">Program Schedule</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+         <a class="navbar-brand" href="http://proconf.org/">PROCONF</a>
+        </form>
+      </div>
+    </nav>
+
+    
+    <main role="main" class="container">
+      <div class="jumbotron">
+        <h4>International Conference on Trends in Computational and Cognitive Engineering 2020 (TCCE 2020)</h4>
+        <p>December 17-18, 2020 | Jahangirnagar University, Dhaka, Bangladesh</p>
+        <a class="btn btn-lg btn-primary" href="http://tcce.iitju.edu.bd/" role="button">Visit Website</a>
+      </div>
+  <table id="mytable" class="display table table-striped" width="100%">
+   <thead><tr><th><input type="checkbox" name="Check_ctr" value="yes" onclick="toggle(this);"></th><th>Paper ID</th><th>Title</th></tr></thead>
+  <tfoot><tr><th><input type="checkbox" name="Check_ctr" value="yes" onclick="toggle(this);"></th><th>Paper ID</th><th>Title</th></tr></tfoot>
+  <tbody>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="305"> </td><td><a href="papers/305.pdf">305</a></td><td><a href="papers/305.pdf">Deep CNN-supported Ensemble CADx Architecture to Diagnose Malaria by Medical Image</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="311"> </td><td><a href="papers/311.pdf">311</a></td><td><a href="papers/311.pdf">A Routing Protocol for Cancer Cell Detection using Wireless Nano-sensors Network (WNSN)</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="313"> </td><td><a href="papers/313.pdf">313</a></td><td><a href="papers/313.pdf">Building a non-ionic, non-electronic, non-algorithmic artificial brain: Cortex and connectome interaction in a humanoid bot subject (HBS) </a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="315"> </td><td><a href="papers/315.pdf">315</a></td><td><a href="papers/315.pdf">Anonymous Author identifier Using Machine Learning</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="316"> </td><td><a href="papers/316.pdf">316</a></td><td><a href="papers/316.pdf">An ANN-based Approach to Identify Smart Appliances for Ambient Assisted Living (AAL) in the Smart Space </a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="321"> </td><td><a href="papers/321.pdf">321</a></td><td><a href="papers/321.pdf">Virtual Heritage of the Saith Gumbad Mosque, Bangladesh</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="323"> </td><td><a href="papers/323.pdf">323</a></td><td><a href="papers/323.pdf">Detection of Ovarian Malignancy from Combination of CA125 in blood and TVUS using Machine Learning</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="325"> </td><td><a href="papers/325.pdf">325</a></td><td><a href="papers/325.pdf">Building Machine Learning Based Firewall on Spanning Tree Protocol over Software Defined Networking</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="326"> </td><td><a href="papers/326.pdf">326</a></td><td><a href="papers/326.pdf">Predicting Level of Visual Focus of Human&#39;s Attention using Machine Learning Approaches</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="329"> </td><td><a href="papers/329.pdf">329</a></td><td><a href="papers/329.pdf">Bangla Text Generation Using Bidirectional Optimized Gated Recurrent Unit Network</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="330"> </td><td><a href="papers/330.pdf">330</a></td><td><a href="papers/330.pdf">Handwritten Bangla Character Recognition Using Convolutional Neural Network and Bidirectional Long Short-Term Memory</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="333"> </td><td><a href="papers/333.pdf">333</a></td><td><a href="papers/333.pdf">PRCMLA: Product Review Classification using Machine Learning Algorithms</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="334"> </td><td><a href="papers/334.pdf">334</a></td><td><a href="papers/334.pdf">Node Mobility Optimization in Multi-hop WBAN Using Genetic Algorithm</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="336"> </td><td><a href="papers/336.pdf">336</a></td><td><a href="papers/336.pdf">Bangla Real-Word Error Detection and Correction Using Bidirectional LSTM and Bigram Hybrid Model</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="338"> </td><td><a href="papers/338.pdf">338</a></td><td><a href="papers/338.pdf">Cyber Threat Mitigation of Impending ADS-B Based Air Traffic Management System Using Blockchain Technology</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="339"> </td><td><a href="papers/339.pdf">339</a></td><td><a href="papers/339.pdf">Facial Spoof Detection Using Support Vector Machine</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="342"> </td><td><a href="papers/342.pdf">342</a></td><td><a href="papers/342.pdf">A Machine Learning Approach to Predict Events By Analyzing Bengali Facebook Posts</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="343"> </td><td><a href="papers/343.pdf">343</a></td><td><a href="papers/343.pdf">Implementation of Robotics to Design a Sniffer Dog for the Application of Metal Detection</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="344"> </td><td><a href="papers/344.pdf">344</a></td><td><a href="papers/344.pdf">6G Access Network for Intelligent Internet of Healthcare Things: Opportunity, Challenges,and Research Directions</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="345"> </td><td><a href="papers/345.pdf">345</a></td><td><a href="papers/345.pdf">MobileNet Mask: A Multi-phase Face Mask Detection Model to Prevent person-to-person Transmission of SARS-CoV-2</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="346"> </td><td><a href="papers/346.pdf">346</a></td><td><a href="papers/346.pdf">Auditory Attention State Decoding for the Quiet and Hypothetical Environment: A Comparison Between bLSTM and SVM</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="347"> </td><td><a href="papers/347.pdf">347</a></td><td><a href="papers/347.pdf">Towards a Blockchain Based Supply ChainManagement for E-Agro Business System</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="351"> </td><td><a href="papers/351.pdf">351</a></td><td><a href="papers/351.pdf">Thermo-mechanism: Snake pit membrane</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="352"> </td><td><a href="papers/352.pdf">352</a></td><td><a href="papers/352.pdf">EM Signal Processing in Bio-living System</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="353"> </td><td><a href="papers/353.pdf">353</a></td><td><a href="papers/353.pdf">Sentiment Analysis on Bangla Text using Long Short Term Memory (LSTM) Recurrent Neural Network</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="356"> </td><td><a href="papers/356.pdf">356</a></td><td><a href="papers/356.pdf">HKMS-AMI: A Hybrid Key Management Scheme for AMI Secure Communication</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="363"> </td><td><a href="papers/363.pdf">363</a></td><td><a href="papers/363.pdf">Voice Assistant and Touch Screen Operated Intelligent Wheelchair for Physically Challenged People</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="369"> </td><td><a href="papers/369.pdf">369</a></td><td><a href="papers/369.pdf">Design and Analysis of 37GHz Millimeter Wave Microstrip Patch Antenna for 5G Cellular Communication</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="371"> </td><td><a href="papers/371.pdf">371</a></td><td><a href="papers/371.pdf">Two-Stage Facial Mask Detection Model for Indoor Environments</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="372"> </td><td><a href="papers/372.pdf">372</a></td><td><a href="papers/372.pdf">Machine Learning Approach Towards Satellite Image Classification</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="374"> </td><td><a href="papers/374.pdf">374</a></td><td><a href="papers/374.pdf">Comparative Analysis of different Classifiers on EEG Signals for Predicting Epileptic Seizure</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="375"> </td><td><a href="papers/375.pdf">375</a></td><td><a href="papers/375.pdf">Bengali Abstractive News Summarization(BANS): A Neural Attention Approach</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="381"> </td><td><a href="papers/381.pdf">381</a></td><td><a href="papers/381.pdf">Anomaly Detection in ElectroencephalographySignal using Deep Learning Model</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="384"> </td><td><a href="papers/384.pdf">384</a></td><td><a href="papers/384.pdf">iHOREApp: A Mobile App for Hybrid Renewable Energy Model using Particle Swarm Optimization</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="388"> </td><td><a href="papers/388.pdf">388</a></td><td><a href="papers/388.pdf">Design a U-slot Microstrip Patch Antenna at 37GHz mmWave for 5G Cellular Communication</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="389"> </td><td><a href="papers/389.pdf">389</a></td><td><a href="papers/389.pdf">A Healthcare System for in-home ICU during COVID-19 Pandemic</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="393"> </td><td><a href="papers/393.pdf">393</a></td><td><a href="papers/393.pdf">Anonymous Person Tracking across Multiple Camera Using Color Histogram and Body Pose Estimation</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="400"> </td><td><a href="papers/400.pdf">400</a></td><td><a href="papers/400.pdf">An Effective Leukemia Prediction Technique using Supervised Machine Learning Classification Algorithm</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="402"> </td><td><a href="papers/402.pdf">402</a></td><td><a href="papers/402.pdf">Normalized Approach to Find Optimal Number of topics in Latent Dirichlet Allocation (LDA)</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="403"> </td><td><a href="papers/403.pdf">403</a></td><td><a href="papers/403.pdf">Evaluating Energy Efficiency and Performance of Social-Based Routing Protocols in Delay-Tolerant Networks</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="409"> </td><td><a href="papers/409.pdf">409</a></td><td><a href="papers/409.pdf">A Combined Framework of InterPlanetary File System and Blockchain to Securely Manage Electronic Health Records</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="410"> </td><td><a href="papers/410.pdf">410</a></td><td><a href="papers/410.pdf">Performance Analysis of Machine Learning Approaches in Software Complexity Prediction</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="413"> </td><td><a href="papers/413.pdf">413</a></td><td><a href="papers/413.pdf">Secured Smart Healthcare System: Blockchain and Bayesian Inference based Approach</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="416"> </td><td><a href="papers/416.pdf">416</a></td><td><a href="papers/416.pdf">Career Prediction with Analysis of Influential Factors Using Data Mining in the Context of Bangladesh</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="418"> </td><td><a href="papers/418.pdf">418</a></td><td><a href="papers/418.pdf">A Blockchain based Scheme for Sybil Attack Detection in Underwater Wireless Sensor Networks</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="419"> </td><td><a href="papers/419.pdf">419</a></td><td><a href="papers/419.pdf">Quantification of groundnut leaf defects using image processing algorithms</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="421"> </td><td><a href="papers/421.pdf">421</a></td><td><a href="papers/421.pdf"> A Comparative Study among Segmentation Techniques for Skin Disease Detection Systems</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="422"> </td><td><a href="papers/422.pdf">422</a></td><td><a href="papers/422.pdf">Performance Analysis of Different Loss Function in Face Detection Architectures</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="426"> </td><td><a href="papers/426.pdf">426</a></td><td><a href="papers/426.pdf">Quantitative Analysis of Deep CNNs for Multilingual Handwritten Digit Recognition</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="427"> </td><td><a href="papers/427.pdf">427</a></td><td><a href="papers/427.pdf">Convid-Net: An enhanced Convolutional Neural Network framework for COVID-19 detection from X-ray images</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="430"> </td><td><a href="papers/430.pdf">430</a></td><td><a href="papers/430.pdf">A Mobile Application for Mental Health Care during COVID-19 Pandemic: Development and Usability Evaluation with System Usability Scale</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="432"> </td><td><a href="papers/432.pdf">432</a></td><td><a href="papers/432.pdf">Cascade Classification of Face Liveliness Detection using Heart Beat Measurement</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="433"> </td><td><a href="papers/433.pdf">433</a></td><td><a href="papers/433.pdf">Application of Feature Engineering with Classification Techniques to Enhance Corporate Tax Default Detection Performance</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="434"> </td><td><a href="papers/434.pdf">434</a></td><td><a href="papers/434.pdf">Handwritten Bangla Character Recognition Using Deep Convolutional Neural Network: Comprehensive Analysis on Three Complete Datasets</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="435"> </td><td><a href="papers/435.pdf">435</a></td><td><a href="papers/435.pdf">An Efficient Bengali Text Steganography Method Using Bengali Letters and Whitespace Characters</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="437"> </td><td><a href="papers/437.pdf">437</a></td><td><a href="papers/437.pdf">An Integrated CNN-LSTM Model for Bengali Lexical Sign Language Recognition</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="439"> </td><td><a href="papers/439.pdf">439</a></td><td><a href="papers/439.pdf">Towards Developing a Real-time Hand Gesture Controlled Wheelchair</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="440"> </td><td><a href="papers/440.pdf">440</a></td><td><a href="papers/440.pdf">Enhancing Flexible Unequal Error Control Method to Improve Soft Error Tolerance</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="442"> </td><td><a href="papers/442.pdf">442</a></td><td><a href="papers/442.pdf">A Novel Deep Learning Approach to Predict Air Quality Index</a></td> </tr>
+   <tr><td><input type="checkbox" name="sel[]" id="sel" onClick="UnCheck(document.form.Check_ctr)" value="443"> </td><td><a href="papers/443.pdf">443</a></td><td><a href="papers/443.pdf">Deep Learning Based Algorithm for Skin Cancer Classification</a></td> </tr>
+  </tbody>
+    </table>
+    
+<script type="text/JavaScript">
+$(document).ready(function() {
+    $('#mytable').DataTable();
+} );
+</script>
+
+
+</main>
+
+    <footer class="container">
+<hr>      
+<span class="pull-left">Copyright © 2014-2020 
+All Rights Reserved. Powered By: <a href="http://proconf.org" target="_blank">Proconf Peer-Review, Abstract and Conference Management System</a> </span>
+
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
+
